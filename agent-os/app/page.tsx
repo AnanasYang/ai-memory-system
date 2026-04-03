@@ -48,37 +48,14 @@ export default function DashboardPage() {
             </div>
             {dreams.pendingReviews.length > 0 && (
               <div className="pt-2 border-t">
-                <span className="text-sm text-yellow-600">
-                  ⚠️ {dreams.pendingReviews.length} 个待 review 项目
-                </span>
+                <p className="text-sm text-orange-600">
+                  有 {dreams.pendingReviews.length} 个待 Review 的候选
+                </p>
               </div>
             )}
           </CardContent>
         </Card>
       </div>
-      
-      {/* 快速操作 */}
-      <Card>
-        <CardHeader>
-          <CardTitle>快速操作</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <div className="flex flex-wrap gap-2">
-            <a 
-              href="/review" 
-              className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition"
-            >
-              查看 Review
-            </a>
-            <button 
-              onClick={() => fetch('/api/sync', { method: 'POST' })}
-              className="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition"
-            >
-              立即同步
-            </button>
-          </div>
-        </CardContent>
-      </Card>
     </div>
   );
 }
