@@ -1,0 +1,11 @@
+[Unit]
+Description=AI Memory System Auto Sync
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/bruce/.openclaw/workspace/ai-memory-system/scripts/auto-sync.sh
+User=bruce
+
+[Install]
+WantedBy=multi-user.target
