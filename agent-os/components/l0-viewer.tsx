@@ -12,7 +12,7 @@
 'use client';
 
 import React, { useState, useMemo, useCallback, useRef } from 'react';
-import { useAgentOSStore, useAutoRefresh, L0Message } from '../../lib/store';
+import { useAgentOSStore, useAutoRefresh, L0Message } from '@/lib/store';
 import Loading, { Skeleton, ListSkeleton } from '../ui/loading';
 import EmptyState, { EmptySearch, EmptyAllDone } from '../ui/empty-state';
 import { SimpleVirtualList } from '../virtual-list';
