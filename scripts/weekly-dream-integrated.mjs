@@ -267,7 +267,7 @@ ${l2Candidates.map((c, i) => `${i + 1}. **${c.name}** - ${c.description} (置信
 ## 🔗 相关文件
 
 - L1记忆: \`Memory/L1-episodic/\`
-- L2候选: \`Memory/L2-procedural/candidates/${DATE}-week-${WEEK_KEY}.json\`
+- L2候选: \`Memory/L2-procedural/candidates/${DATE_STR}-week-${WEEK_KEY}.json\`
 - L2沉淀: \`Memory/L2-procedural/\`
 
 ---
