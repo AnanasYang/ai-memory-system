@@ -40,7 +40,7 @@ $CHANGES"
 git commit -m "$COMMIT_MSG" >> "$LOG_FILE" 2>&1 || true
 
 # 推送
-git push origin master >> "$LOG_FILE" 2>&1
+git push origin main >> "$LOG_FILE" 2>&1
 
 echo "$(date): Sync completed" >> "$LOG_FILE"
 rm -f "$LOCK_FILE"
