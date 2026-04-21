@@ -1,1 +1,11 @@
-{"lastCheck": "2026-04-06T09:00:00+08:00", "lastL1Review": "2026-04-06", "pendingReviews": [], "candidatesL2": [], "candidatesL3": [], "archiveQueue": [], "notes": "L1-episodic 目录为空，本周无新会话摘要"}
+{
+  "lastCheck": "2026-04-21T15:00:00+08:00",
+  "lastL1Review": "2026-04-21",
+  "lastL2Review": "2026-04-21",
+  "pendingReviews": [],
+  "candidatesL2": [],
+  "candidatesL3": [],
+  "archiveQueue": [],
+  "notes": "L4 核心身份已自动初始化 | Agent Memory OS v2 已记录为 L1 | 自动化偏好模式已沉淀为 L2 | 系统升级为全自动模式",
+  "autoModeEnabled": true
+}
